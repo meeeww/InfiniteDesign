@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    font-family: Poppins;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    font-weight: 400;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+}
+#discord{
+    width: 40px;
+    height: 40px;
+    background-color: #7289da;
+    border-radius: 15px;
+}
+#discord img{
+    width: 20px;
+    height: 16px;
+}
+#twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
