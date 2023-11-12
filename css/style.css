@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
 
+:root {
+  --color-textos: #1c4470;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -71,6 +75,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--color-textos);
 }
 
 .fondo_main {
@@ -102,10 +107,16 @@ main {
 
 .main_presentation h1 {
   font-size: 5vw;
-  color: #1c4470;
+  color: var(--color-textos);
   font-weight: 400;
   text-align: right;
   white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+  .fondo_main {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 768px) {
@@ -120,10 +131,6 @@ main {
     height: 2px;
   }
 
-  .fondo_main {
-    object-fit: cover;
-  }
-
   .main_presentation h1 {
     font-size: 45px;
     text-align: center;
@@ -134,7 +141,7 @@ main {
   }
 }
 
-.about_us {
+.main_description {
   height: 300px;
   background-color: #1c3a5e;
   color: white;
@@ -143,7 +150,7 @@ main {
   justify-content: center;
 }
 
-.about_us_text {
+.main_description_text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,16 +158,25 @@ main {
   padding: 0 1rem;
 }
 
-.about_us_text h3 {
+.main_description_text h3 {
   white-space: nowrap;
 }
 
-.about_us_text p {
+.main_description_text p {
   max-width: 700px;
 }
 
+.como_trabajamos {
+  background-color: white;
+  color: black;
+}
+
 @media (max-width: 768px) {
-  .about_us_text {
+  .main_description_text {
     flex-direction: column;
+  }
+
+  .como_trabajamos_text {
+    flex-direction: column-reverse;
   }
 }
