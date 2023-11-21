@@ -180,3 +180,71 @@ main {
     flex-direction: column-reverse;
   }
 }
+#examples{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding-top: 50px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.examples_tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  /*grid-template-columns:repeat(3, minmax(400px ,auto));*/
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+  width: 85%;
+}
+#examples_tarjetas_Tarjeta1{
+  width: 400px;
+  height: 450px;
+  background-image: url(https://ucarecdn.com/5fe9c108-09c4-4af3-a071-38500026366e/);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#examples_tarjetas_Tarjeta2{
+  background-color: black;
+  width: 400px;
+  height: 450px;
+}
+#examples_tarjetas_Tarjeta3{
+  background-color: black;
+  width: 400px;
+  height: 450px;
+}
+#examples_tarjetas_Tarjeta4{
+  background-color: black;
+  width: 400px;
+  height: 450px;
+}
+#examples_tarjetas_Tarjeta5{
+  background-color: black;
+
+  width: 400px;
+  height: 450px;
+}
+#examples_tarjetas_Tarjeta6{
+  background-color: black;
+  width: 400px;
+  height: 450px;
+}
+
+#examples_tajetas_Tarjeta_text{
+  margin-top:95%;
+  margin-left: 5px;
+  color: white;
+  font-weight: 200;
+  width: 75%;
+}
+.examples_text{
+  font-size: xx-large;
+}
+
+
