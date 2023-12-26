@@ -13,6 +13,9 @@
 body {
     font-family: Poppins;
 }
+body a{
+    text-decoration: none;
+}
 
 header {
     display: flex;
@@ -246,4 +249,28 @@ main {
 }
 .examples_text {
     font-size: xx-large;
+}
+#footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    justify-content: center;
+}
+#footer a{
+    text-decoration: none;
+    color: #1c3a5e;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 2vh;
+}
+.footer-text p:hover{
+    color: coral;
+}
+#footer a:hover{
+    color: coral;
 }
