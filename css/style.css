@@ -162,7 +162,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    column-gap: 10rem;
     padding: 0 1rem;
 }
 
